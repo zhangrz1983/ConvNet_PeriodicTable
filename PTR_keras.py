@@ -5,7 +5,7 @@ from tensorflow import keras
 from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
 
-with open ('heusler') as fin:
+with open ('Data/Heusler_energy') as fin:
     lines = fin.readlines()
 ndata=len(lines)
 
